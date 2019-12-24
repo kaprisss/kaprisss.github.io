@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>RDCLR.HOME - Text</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='style.css'>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1">
+</head>
+<body>
+
+<header> <a href="index.html"><img src="logo.png" alt="Логотип"></a>
+    <div class="menu">
+        <nav class="menu_links">
+        <a class="menu_links-item" href="text.html">о нас</a>
+        <a class="menu_links-item" href="merch.html">мерч</a>
+        <a class="menu_links-item" href="Contacts.html">контакты</a>
+        </nav>
+    </div>
+
+
+    <div class="menu_icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<div class="fixed"> <img src="strelka.png" alt="Назад">
+</div>
+
+<main>
+    <h1>О нас</h1>
+    <p>Серия офлайн-мероприятий от Red Collar — короткие лекции
+        и живые обсуждения прямо у нас в офисе. Минимум гостей,
+        неформальная обстановка. Ждём дома!</p>
+
+    <h2>Как к нам попасть?</h2>
+    <p>Всё просто — будь в числе первых, кто запишется на встречу после
+        анонса даты. Количество мест объявляем вместе с анонсом.
+    </p>
+
+    <h3>Где с нами пообщаться?</h3>
+    <p>Чат в телеграме, в котором общаемся, отвечаем на вопросы, публикуем анонсы мероприятий в первую очередь
+        <a href="ttttt.me/rdclr_home">ttttt.me/rdclr_home</a> </p>
+
+    <blockquote>Разберём все по полочкам</blockquote>
+
+    <h2>Наша команда</h2>
+    <p>Обладаем обширными компетенциями и экспертными
+        навыками в таких сферах как: </p>
+    <ol>
+        <li>Менеджмент</li>
+        <li>Дизайн</li>
+        <li>Frontend</li>
+        <li>Backend</li>
+    </ol>
+    <p>Узнаем что актуально прямо сейчас, какие направления развиваются,
+        как самому начать изучать сферу, наработать нужные навыки и войти
+        в профессию.</p>
+
+    <h2 class="h2_foto">Фотоотчет</h2>
+
+    <div class="slider">
+        <div class="slider-button">
+            <button class="prev-button"><img src="left_arrow.png"></button>
+            <button class="next-button"><img src="right_arrow.png"></button>
+        </div>
+        <div class="slider-hidden">
+            <div class="slider-wrapper">
+                <div class="slide"><img class="fotootchet" src="fotootchet.png"></div>
+                <div class="slide"><img class="fotootchet" src="cat.jpg"></div>
+                <div class="slide"><img class="fotootchet" src="flower.jpg"></div>
+                <div class="slide"><img class="fotootchet" src="mask.jpg"></div>
+                <div class="slide"><img class="fotootchet" src="lips.jpg"></div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Последние спикеры</h2>
+    <p>Имено они читают лекции на RDCLR.HOME! А если не читают,
+        то находятся где-то в офисе и им можно задать любые вопросы.</p>
+    <ul>
+        <li>Иван Марков</li>
+        <li>Иван Вялов</li>
+        <li>Надежда Кочеткова</li>
+        <li>Артём Фёдоров</li>
+        <li>Андрей Глевчук</li>
+    </ul>
+
+    <h2>Мы находимся</h2>
+    <img class="mi_nahod" src="mi_nahod.png" alt="Фото">
+
+    <p><i>ул. Текстильщиков, 5б, Воронеж</i></p>
+    <h1>Записаться на RDCLR.HOME</h1>
+
+    <form action="" id="form1">
+        <label class="select">
+        <select data-required="true">
+            <option value="var1">Выберите статус</option>
+            <option value="var1">Студент</option>
+            <option value="var1">Начинающий дизайнер</option>
+            <option value="var1">Практикующий дизайнер</option>
+            <option value="var1">Хочу освоить другую профессию</option>
+        </select>
+        </label> <br>
+
+        <input class='input-form' type="email" placeholder="E-mail" data-required="true"> <br>
+        <input class='input-form' type="tel" placeholder="Телефон" data-required="true"> <br>
+        <textarea placeholder="Комментарий" data-required="true"></textarea> <br>
+
+        <div class="checkbox">
+            <input class="checkbox_input" type="checkbox" id="checkbox_1" data-required="true">
+            <label class="checkbox_label" for="checkbox_1">
+                Даю согласие на обработку своих <a class="dannie" href="">персональных данных</a></label></div> <br>
+
+        <input type="submit" class="button_form" value="Отправить"> <br>
+        <!--<button class="button_form" type="submit">отправить</button>-->
+
+    </form>
+
+</main>
+
+<footer>
+     <nav class="nav_social">
+        <a href="">VK</a>
+        <a href="">FB</a>
+        <a href="">IG</a>
+     </nav>
+
+    <nav class="nav_link">
+        <a href="text.html">о нас</a>
+        <a href="merch.html">мерч</a>
+        <a href="Contacts.html">контакты</a>
+    </nav>
+</footer>
+
+<div class="popup">
+    <div class="overlay"></div>
+    <div class="popup-inner"><div class="message-text"></div></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
